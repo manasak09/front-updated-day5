@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: steelblue;
+    background-image: url('./images/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: rgb(73, 73, 73);
+    font-family: 'Muli', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 50px 120px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    
+}
+
+.container1 {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px 40px;
+    border-radius: 5px;
+    margin-block-start: -30px;
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(85, 80, 80);
+}
+
+.container a {
+    text-decoration: none;
+    color: rgb(46,129,218);
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    background: rgb(46,129,218);
+    padding: 15px;
+    font-family: inherit;
+    font-size: 18px;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+}
+
+.btn:focus {
+    outline: 0;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.text {
+    margin-top: 30px;
+}
+
+.form-control {
+    position: relative;
+    margin: 20px 0 40px;
+    width: 300px;
+}
+
+.form-control input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px rgb(110, 109, 109) solid;
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 20px;
+    color: rgb(173, 216, 230);
+}
+
+.form-control input:focus,
+.form-control input:valid {
+    outline: 0;
+    border-bottom-color: rgb(9, 9, 9);
+}
+
+.form-control label {
+    position: relative;
+    top: 10px;
+    left: 0;
+    pointer-events: none;
+}
+
+.form-control label span {
+    display: inline-block;
+    font-size: 18px;
+    min-width: 5px;
+    transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.form-control input:focus+label span,
+.form-control input:valid+label span {
+    color: lightblue;
+    transform: translateY(-30px);
+}
+
+.form-controls {
+    position: relative;
+    margin: 10px 0 0px;
+    width: 300px;
+}
+
+.form-controls input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px #fff solid;
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 20px;
+    color: #fff;
+}
+
+.form-controls input:focus,
+.form-controls input:valid {
+    outline: 0;
+    border-bottom-color: lightblue;
+}
+
+.form-controls label {
+    position: relative;
+    top: 10px;
+    left: 0;
+    pointer-events: none;
+}
+
+.form-controls label span {
+    display: inline-block;
+    font-size: 18px;
+    min-width: 5px;
+    transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.form-controls input:focus+label span,
+.form-controls input:valid+label span {
+    color: lightblue;
+    transform: translateY(-30px);
+}
